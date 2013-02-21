@@ -7,10 +7,5 @@ class Movie < ActiveRecord::Base
   def self.get_all_ratings
     @@all_ratings = ["G", "PG", "PG-13", "R"]
   end
-  
-  #I was missiing this part
-  def sefl.get_all_ratings
-    @@all_ratings = ["G","PG","PG-13","R"]
-  end
 
 end
